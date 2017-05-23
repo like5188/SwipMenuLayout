@@ -21,6 +21,22 @@ SwipMenuLayout支持任何View的侧滑
         compile 'com.github.like5188:SwipMenuLayout:1.0.0'
     }
 ```
+2、使用
+```java
+    <com.like.swipmenulayout.SwipeMenuLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        swipe:contentViewId="@+id/content_view"
+        swipe:leftViewId="@+id/left_view"
+        swipe:rightViewId="@+id/right_view">
+        
+        您的视图......
+        
+    </com.like.swipmenulayout.SwipeMenuLayout>
+```
 # License
 ```xml
     Copyright 2017 like5188
