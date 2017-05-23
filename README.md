@@ -1,6 +1,6 @@
-# RecyclerView
+# SwipMenuLayout
 
-RecyclerView封装
+SwipMenuLayout支持任何View的侧滑
 
 ## 使用方法：
 
@@ -18,7 +18,7 @@ RecyclerView封装
 在Module的gradle中加入：
 ```groovy
     dependencies {
-        compile 'com.github.like5188:RecyclerView:1.0.0'
+        compile 'com.github.like5188:SwipMenuLayout:1.0.0'
     }
 ```
 # License
