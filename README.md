@@ -21,7 +21,7 @@ SwipMenuLayout支持任何View的侧滑
         compile 'com.github.like5188:SwipMenuLayout:1.0.0'
     }
 ```
-2、常规使用
+2、需要侧滑的视图，用SwipeMenuLayout布局包裹。
 ```java
     <com.like.swipmenulayout.SwipeMenuLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
         android:id="@+id/swipe_layout"
@@ -37,10 +37,10 @@ SwipMenuLayout支持任何View的侧滑
         
     </com.like.swipmenulayout.SwipeMenuLayout>
 ```
-3、配合RecyclerView使用
+3、如果要用在RecyclerView的item中，则需要使用RecyclerViewForSwipeMenuLayout这个RecyclerView。
 ```java
     需要导入'com.github.like5188:RecyclerView:1.0.0'，
-    并且使用
+    可以使用
         <include
             android:id="@+id/refreshAndRecyclerviewBinding"
             layout="@layout/view_refresh_and_recyclerview" />
