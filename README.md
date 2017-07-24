@@ -18,7 +18,7 @@ SwipMenuLayout支持任何View的侧滑
 在Module的gradle中加入：
 ```groovy
     dependencies {
-        compile 'com.github.like5188:SwipMenuLayout:1.0.0'
+        compile 'com.github.like5188:SwipMenuLayout:1.0.1'
     }
 ```
 2、需要侧滑的视图，用SwipeMenuLayout布局包裹。
@@ -39,7 +39,7 @@ SwipMenuLayout支持任何View的侧滑
 ```
 3、如果要用在RecyclerView的item中，则需要使用RecyclerViewForSwipeMenuLayout这个RecyclerView。
 ```java
-    需要导入'com.github.like5188:RecyclerView:1.0.0'，
+    需要导入'com.github.like5188:RecyclerView:xxx'，
     可以使用
         <include
             android:id="@+id/refreshAndRecyclerviewBinding"
