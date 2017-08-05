@@ -18,7 +18,7 @@ SwipMenuLayout支持任何View的侧滑
 在Module的gradle中加入：
 ```groovy
     dependencies {
-        compile 'com.github.like5188:SwipMenuLayout:1.3.1'
+        compile 'com.github.like5188:SwipMenuLayout:2.0.0'
     }
 ```
 2、需要侧滑的视图，用SwipeMenuLayout布局包裹。
